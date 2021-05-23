@@ -1,3 +1,4 @@
+import 'package:coffee_to_go/screens/order_placement_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -160,6 +161,10 @@ class _HomeScreenState extends State<HomeScreen> {
                                 Radius.circular(25.0),
                               )),
                           child: TextButton(
+                            onPressed: () {
+                              Navigator.pushNamed(
+                                  context, OrderPlacementScreen.id);
+                            },
                             child: Text(
                               "Order Now",
                               style: TextStyle(
@@ -259,6 +264,10 @@ class _HomeScreenState extends State<HomeScreen> {
                                 Radius.circular(25.0),
                               )),
                           child: TextButton(
+                            onPressed: () {
+                              Navigator.pushNamed(
+                                  context, OrderPlacementScreen.id);
+                            },
                             child: Text(
                               "Order Now",
                               style: TextStyle(
@@ -358,6 +367,10 @@ class _HomeScreenState extends State<HomeScreen> {
                                 Radius.circular(25.0),
                               )),
                           child: TextButton(
+                            onPressed: () {
+                              Navigator.pushNamed(
+                                  context, OrderPlacementScreen.id);
+                            },
                             child: Text(
                               "Order Now",
                               style: TextStyle(
@@ -457,6 +470,10 @@ class _HomeScreenState extends State<HomeScreen> {
                                 Radius.circular(25.0),
                               )),
                           child: TextButton(
+                            onPressed: () {
+                              Navigator.pushNamed(
+                                  context, OrderPlacementScreen.id);
+                            },
                             child: Text(
                               "Order Now",
                               style: TextStyle(

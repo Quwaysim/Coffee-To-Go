@@ -1,4 +1,5 @@
 import 'package:coffee_to_go/screens/home_screen.dart';
+import 'package:coffee_to_go/screens/order_placement_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(CoffeeToGo());
@@ -13,6 +14,7 @@ class CoffeeToGo extends StatelessWidget {
       initialRoute: HomeScreen.id,
       routes: {
         HomeScreen.id: (context) => HomeScreen(),
+        OrderPlacementScreen.id: (context) => OrderPlacementScreen(),
       },
     );
   }
