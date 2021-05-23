@@ -1,4 +1,4 @@
-import 'package:coffee_to_go/screens/home_screen.dart';
+import 'package:coffee_to_go/screens/landingPage.dart';
 import 'package:coffee_to_go/screens/signIn.dart';
 import 'package:flutter/material.dart';
 
@@ -16,9 +16,9 @@ class CoffeeToGo extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         primarySwatch: Colors.blue,
       ),
-      initialRoute: HomeScreen.id,
+      initialRoute: LandingPage.id,
       routes: {
-        '/': (context) => HomeScreen(),
+        '/': (context) => LandingPage(),
         '/sign-in': (context) => SignIn(),
         '/sign-up': (context) => SignUp(),
       },
