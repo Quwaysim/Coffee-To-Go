@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatefulWidget {
+class LandingPage extends StatefulWidget {
   static const String id = '/';
   @override
-  _HomeScreenState createState() => _HomeScreenState();
+  _LandingPageState createState() => _LandingPageState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _LandingPageState extends State<LandingPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
